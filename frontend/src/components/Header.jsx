@@ -44,7 +44,7 @@ export default function Header() {
         >
           <FaMoon size={18} />
         </Button>
-        <Link to="/singin">
+        <Link to="/signin">
           <Button className="bg-gradient-to-r from-indigo-500 via-purple-400 to-sky-600 hover:bg-none hover:text-black border-2 hover:border-sky-600">
             Sing In
           </Button>
