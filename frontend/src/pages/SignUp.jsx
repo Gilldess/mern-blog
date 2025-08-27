@@ -1,11 +1,12 @@
 import { Alert, Button, Label, Spinner, TextInput } from "flowbite-react";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+// sudah selesai signup
 
 export default function SingUp() {
   // foramData disini untuk menampung dan menyusun menjadi json karena isinya foramData berisi json, datanya dari handleData yg mana hanleData data nya dari onchange yg di isi User. lakah berikutnya setelah selsai merubah data jadi json kita buat handleSubmit. setelah itu buat errorMessage dan loading
   const [foramData, setFormData] = useState({});
-  // ini untuk berpindah halaman jika proses signup nya berhasil 
+  // ini untuk berpindah halaman jika proses signup nya berhasil
   const navigate = useNavigate();
   const [errorMessage, setErrorMessage] = useState(null);
   const [loading, setLoading] = useState(false);
